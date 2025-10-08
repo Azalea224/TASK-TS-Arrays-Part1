@@ -9,7 +9,6 @@ function createGroceries(): string[] {
 // Write a getSecondGroceryItem function that returns the second grocery item from `groceries` argument
 function getSecondGroceryItem(groceries: string[]): string {
   // write your code here...
- console.log("createGroceries[1]");
   return groceries[1]; // replace empty string with what you see is fit
 }
 
@@ -17,7 +16,6 @@ function getSecondGroceryItem(groceries: string[]): string {
 // Write a getGroceriesCount that returns the length of the `groceries` argument
 function getGroceriesCount(groceries: string[]): number {
   // write your code here...
-  createGroceries.length
   return createGroceries().length; // replace zero with what you see is fit
 }
 
@@ -25,7 +23,6 @@ function getGroceriesCount(groceries: string[]): number {
 // Write a getLastGroceryItem function that returns the last grocery item from `groceries` argument
 function getLastGroceryItem(groceries: string[]): string {
   // write your code here...
-  console.log(groceries[groceries.length - 1]);
   return groceries[groceries.length - 1]; // replace empty string with what you see is fit
 }
 
